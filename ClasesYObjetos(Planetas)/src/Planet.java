@@ -38,4 +38,10 @@ this.sun_distance=sun_distance;
     public int getOrbit_days(){
         return this.orbit_days;
     }
+    public void setMass(int mass){
+        this.mass=mass;
+    }
+    public double getMass() {
+        return mass;
+    }
 }
