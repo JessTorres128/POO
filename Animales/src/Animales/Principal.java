@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
 
-      /*  int[] miArray= new int[4];
+        int[] miArray= new int[4];
                 String str[];
         miArray[0]=100;
         miArray[3]=200;
@@ -19,7 +19,7 @@ public class Principal {
             String n= scanner.next();
             str[x]=n;
         }
-    // imprimirArreglo(str);*/
+     // imprimirArreglo(str);
 
         Ave[] arrayAves=new Ave[3];
         Animal[] arrayAnimal=new Animal[10];
