@@ -5,14 +5,19 @@ public class Persona {
     private String curp;
     private String fecha;
     private Vacuna vacuna;
+    private String sexo;
 
-    public Persona(String nombre, String curp, Vacuna vacuna) {
+    public Persona(String nombre, String curp, Vacuna vacuna, String sexo) {
         this.nombre = nombre;
         this.curp = curp;
         this.vacuna = vacuna;
+        this.sexo=sexo;
         Date fecha1=new Date();
         this.fecha=fecha1.getYear()+"/"+fecha1.getMonth()+"/"+fecha1.getDay();
     }
+
+    public String getSexo() { return sexo; }
+    public void setSexo(String sexo) { this.sexo = sexo; }
 
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }

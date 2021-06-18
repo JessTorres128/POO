@@ -10,11 +10,11 @@ public class Principal extends Application{
         AnchorPane pane= ventana.construir();
         Scene scene=new Scene(pane);
         pane.setPrefWidth(600);
-        pane.setPrefHeight(500);
+        pane.setPrefHeight(700);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Covid");
         primaryStage.setWidth(600);
-        primaryStage.setHeight(500);
+        primaryStage.setHeight(700);
         primaryStage.show();
 
     }
